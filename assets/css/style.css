@@ -1,34 +1,48 @@
-*.
+* {
+    margin: 5px;
+    font-family:cursive;
+}
+
 .root {
-    --body-font: 'Lucida Grande';
+    
     
 }
 
 body {
-    background-color: rgb(152, 160, 141), 0.715);
+    background-color: rgba(207, 213, 198, 0.715);
 }
 
 .header {
+    padding: 20px;
     text-align: center;
-    font-style: 'Lucida Grande';
     background-color: rgba(73, 98, 29, 0.234);
-    color: rgb(86, 85, 84);
-    min-height: 35px;
-    border: bottom 5px; rgb(75, 75, 35);
+    color: rgb(44, 44, 43);
+    border-bottom: 10px, rgb(55, 55, 52);
 }
 
 .header h1 {
     font-size: 42px;
+    font-weight: 100;
     display: inline-block;
     }
-
+.header h1 .anand {
+    color: rgb(76, 70, 70);
+    font-weight: 300;
+}
 .header nav { 
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 30px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style:italic bold;
     color: rgb(57, 55, 55);
-    font-size: 25px;
 }
 
+.header nav li {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(59, 55, 55);
+}
