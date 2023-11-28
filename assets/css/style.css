@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Tahoma, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .root {
@@ -9,21 +9,17 @@
 }
 
 body {
-    background-color: rgba(253, 253, 253, 0.715);
+    background-color: rgba(253, 253, 253, 0.905);
 }
 
 .header {
     padding: 20px;
     text-align: center;
-    background-color: rgba(73, 98, 29, 0.234);
-    color: rgb(44, 44, 43);
-    background-image: url(../images/backgroundsmflow\ \(1\).jpg);
-    image-orientation: flip;
+    background-color: rgb(255, 255, 255);
+    color: rgb(74, 74, 72);
     height: 70px;
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
     
 }
 
@@ -36,26 +32,34 @@ body {
     color: rgb(76, 70, 70);
     font-weight: 100;
 }
+.header img {
+    align-items: center;
+    
+}
 .header nav { 
     padding-top: 15px;
     margin-right: 30px;
     float: right;
-    font-style:italic;
     font-weight: 50;
-    color: rgb(57, 55, 55);
+    color: rgb(255, 255, 255);
 }
 
-.header nav li {
+.navbar1 {
+    text-align: center;
+}
+
+.header .navbar1 li {
     display: inline-block;
     margin-left: 30px;
     font-size: 20px;
     font-weight: 100;
 }
 
-a {
+.narbar1 a {
     color: rgb(59, 55, 55);
     text-decoration: none;
-    
+    text-align: center;
+    font-size: 20px;    
 }
 
 .aboutme {
