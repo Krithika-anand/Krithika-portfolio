@@ -38,10 +38,11 @@ h1 {
 }
 
 
-#projects {
+#nav-bar {
 
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
     color: rgb(198, 198, 198);
     background-color: rgb(99, 98, 98);
