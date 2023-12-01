@@ -5,6 +5,7 @@
     <title>Projects-kadv studio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="icon" href="../my-portfolio/assets/images/logo-edited.ico" type="image/vnd.microsoft.ico">
 </head>
@@ -12,62 +13,109 @@
 <body>
     <!--header-->
     <header>
+
         <p><span>
-        <h1>Krithika Anand</h1></span>
-        <img src="../my-portfolio/assets/images/logo with line.png" height="100px"/>
-        <img class="my-photo" src="../my-portfolio/assets/images/myphoto.png" height="120px"/>
-       </p>
+                <h1>Krithika Anand</h1>
+            </span>
+
+            <img src="../my-portfolio/assets/images/logo with line.png" height="100px" />
+            <img id="my-photo" src="../my-portfolio/assets/images/myphoto.png" height="120px" />
+        </p>
     </header>
 
-    <div>
-                
-                <h2>ARCHITECTURE</h2>
-            
-                <h2>INTERIOR DESIGN</h2>
-            
-                <h2>UX DESIGN</h2>
-           
-                <h2>WEB DESIGN</h2>
+    <!--project list with UI -->
 
-    </div>
-
-    <section id="aboutme" class="aboutme">
-        
-        <h2>About me</h2>
-        <br>
-        <p>Designing has been an integral part of my life. Everything involves designing. 18 years of being an architect, I
-            have designed many builings, ornated the interiors, made logos and graphic designs. My desire to keep
-            updating my design knowledge led me to explore UX design, which in turn re-kindled my long lost interest in front end web development. 
-        </p>
-        <br>
-        <p><span class=explore"><b>EXPLORE MY WEBSITE and know about my work</b></span></p>
-
-        </aboutme>
+    <section id="projects">
+        <h2>ARCHITECTURE</h2>
+        <h2>INTERIOR DESIGN</h2>
+        <h2>UX DESIGN</h2>
+        <h2>WEB DESIGN</h2>
     </section>
 
-    <nav>
+    <section class="container">
         <ul>
-            <li>
-                <a href="#Architecture">Architecture</a>
-            </li>
-            <li>
-                <a href="#Interior Design">Interior Design</a>
-            </li>
-            <li>
-                <a href="#UX Design">UX Design</a>
-            </li>
-            <li>
-                <a href="#Web Design">Web Design</a>
+            <li class="textshadow">
+                <h3>About the Designer</h3>
             </li>
         </ul>
-    </nav>
+        <ul>
+            <li class="textborder">
+                <p>Hi! Welcome to my website.</p>
+                </br>
+                <p>I am Krithika Anand and this website is my own work.Creating people centric design has been the core
+                    of my design practice. 18 years of being an architect, I
+                    have designed many builings, ornated the interiors, made logos and graphic designs. My desire to
+                    keep
+                    updating my design knowledge led me to explore UX design, which in turn re-kindled my long lost
+                    interest in front end web development.
+                </p>
+            </li>
+        </ul>
 
-    <footer class="Contact">
-        <h2>Contact Me</h2>
-        <a href="https://www.linkedin.com/in/krithika-anand-920522224/"><img src="../my-portfolio/assets/images/linkedin.png" alt="linkedin" width="30" height="30"/></a>
-        <a href="https://github.com/Krithika-anand"><img src="../my-portfolio/assets/images/instagram logo.png" alt="instagram" width="30" height="30"/></a>
-        <a href = "mailto: kadvarchitecture@gmail.com"><img src="../my-portfolio/assets/images/mail.png" alt="instagram" height="30"/></a>
+    </section>
 
+    <main class="container">
+        <ul>
+            <li class="textshadow">
+                <h3>Projects</h3>
+            </li>
+        </ul>
+        <ul>
+            <nav class="grid-container" class="textborder">
+                <li class="architectureproject">
+                    <a href="#Architecture">Architecture</a>
+                </li>
+                <li class="interiordesign">
+                    <a href="#Interior Design">Interior Design</a>
+                </li>
+                <li>
+                    <a href="#UX Design">UX Design</a>
+                </li>
+                <li>
+                    <a href="#Web Design">Web Design</a>
+                </li>
+                <li>
+                    <a href="#Others">Others</a>
+                </li>
+            </nav>
+        </ul>
+    </main>
+
+    </section>
+
+    <section class="container">
+        <ul>
+            <li class="textshadow">
+                <h3>Contact me</h3>
+            </li>
+        </ul>
+        <ul>
+            <li class="textborder">
+                <p>+44 1234 567890</p>
+                </br>
+                <p>kadvarchitecture@gmail.com</p>
+            </li>
+        </ul>
+    </section>
+
+
+    <footer class="container">
+        <ul>
+            <li class="textshadow">
+                <h3>Follow Me</h3>
+            </li>
+        </ul>
+        <ul class="textborder">
+            <li>
+                <a href="https://www.linkedin.com/in/krithika-anand-920522224/"><img
+                        src="../my-portfolio/assets/images/linkedin.png" alt="linkedin" width="30" height="30" /></a>
+            </li>
+            <li>
+                <a href="https://github.com/Krithika-anand"><img src="../my-portfolio/assets/images/instagram logo.png"
+                        alt="instagram" width="30" height="30" /></a>
+                </a>
+            </li>
+        </ul>
     </footer>
 
 </body>

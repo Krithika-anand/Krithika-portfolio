@@ -1,91 +1,129 @@
 * {
     margin: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+
 }
 
-.root {
-    
-    
-}
+.root {}
 
 body {
-    background-color: rgba(234, 233, 233, 0.905);
-    color:  rgb(99, 98, 98);
+    background-color: rgba(248, 249, 248, 0.905);
+    color: rgb(99, 98, 98);
+
 }
 
 header {
 
     display: flex;
+    align-items: center;
     justify-content: space-between;
-  
-    
+    color: rgb(194, 26, 26);
+    height: 100%;
+    width: 90%;
+    margin: auto;
 }
+
 h1 {
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: 300;
+    justify-self: center;
+    text-shadow: 2px 2px 5px black;
     justify-self: center;
 }
 
-header .my-photo{
+#my-photo {
     border-radius: 50%;
-    filter: grayscale(100%);
+    filter: grayscale(60%);
+    box-shadow: 0px 2px 5px rgb(68, 67, 67);
 }
 
 
-div { 
-    
+#projects {
+
     display: flex;
     justify-content: space-evenly;
-    
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
     color: rgb(198, 198, 198);
     background-color: rgb(99, 98, 98);
 }
 
 h2 {
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
 }
 
-.navbar1 {
-    text-align: center;
-}
-
-.header .navbar1 li {
-    display: inline-block;
-    margin-left: 30px;
-    font-size: 20px;
-    font-weight: 100;
-}
-
-.narbar1 a {
-    color: rgb(59, 55, 55);
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;    
-}
-
-.aboutme {
-   display: inline-block;
-   width: 90%;
+.container {
+    display: flex;
+    justify-content: left 50;
+    align-items: center;
+    width: 95%;
+    border: 20px;
+    padding: 5px;
     margin-bottom: 20px;
     padding: 20px;
 }
 
-.explore {
-    float: auto;
+h3 {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ;
+
 }
 
-.myphoto {
-    float: left;
-    margin: 5px;
+.textshadow {
+    text-shadow: 0px 2px 5px rgb(154, 153, 153);
 }
+.textborder {
+   
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 3px solid #452a2a;
+    
+}
+
 p {
-    font-size: 17px;
+    font-size: 18px;
 }
+
+.grid-container {
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 95%;
+    border: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+a {
+    color: rgb(59, 55, 55);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
 
 footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
 }
 
+@media screen (min-width: 480px) {
+    #leftsidebar {
+        width: 200px;
+        float: left;
+    }
 
+    #main {
+        margin-left: 216px;
+    }
+}
