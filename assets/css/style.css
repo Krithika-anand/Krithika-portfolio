@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -11,25 +11,26 @@ body {
 header {
 display: flex;
     align-items: center;
-    justify-content: space-between;
-    color: rgb(194, 26, 26);
+    justify-content: space-between;;
+    color: rgb(100, 16, 16);
     height: 100%;
-    width: 90%;
+    width: 100%;
     margin: auto;
+    box-shadow: #452a2a;
 }
 
 h1 {
     font-size: 35px;
     font-weight: 300;
     justify-self: center;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 0 2px 5px black;
     justify-self: center;
 }
 
 #my-photo {
     border-radius: 50%;
     filter: grayscale(60%);
-    box-shadow: 0px 2px 5px rgb(68, 67, 67);
+    box-shadow: 2px 2px 5px rgb(68, 67, 67);
 }
 
 #nav-bar {
@@ -39,7 +40,7 @@ h1 {
     align-items: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
     color: rgb(255, 255, 255);
-    background-color: rgb(99, 98, 98);
+    background-color:  rgba(49, 80, 82, 0.5);;
 }
 
 h2 {
@@ -57,10 +58,7 @@ h2 {
     padding: 20px;
 }
 
-h3 {
-    font-size: 22px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+
 
 .textshadow {
     text-shadow: 0px 2px 5px rgb(154, 153, 153);
@@ -73,28 +71,20 @@ h3 {
     
 }
 
-p {
-    font-size: 18px;
-}
+
 
 li {
     display: inline-block;
     margin-left: 20px;
-    
-}
+    }
 
-a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-}
+
 
 #categoryGrid {
     margin: 0px 5%;
     display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 275px 275px ;
+    grid-template-columns: 3fr 1fr 1fr;
     grid-template-areas:
     "architecture architecture architecture"
     "interiordesign uxDesign uxDesign"
@@ -115,12 +105,12 @@ a {
   
   #uxDesign {
     grid-area: uxDesign;
-    background-image: url(../images/comingsoon.jfif);
+    background-image: url("../images/commingsoon1.png");
   }
   
   #webDev {
     grid-area: webDev ;
-    background-image: url("../images/comingsoon.jfif");
+    background-image: url("../images/commingsoon1.png");
   }
   
   #others {
@@ -132,22 +122,40 @@ a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 5px;
-    cursor: pointer;
+    margin: 2px;
     display: grid;
     align-content: center;
   }
 
   .heading {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(35, 58, 59, 0.5);
     padding: 15px;
-    height: 15px;
-    color: white;
-    font-size: 18px;
-    align-items: center;
+    height: 30px fit-content;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
   }
+  
 footer {
     display: flex;
     justify-content: left;
 }
 
+/* typography */
+
+h3 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0px 0px;
+  }
+
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
