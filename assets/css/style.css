@@ -83,7 +83,7 @@ li {
 #categoryGrid {
     margin: 0px 5%;
     display: grid;
-    grid-template-rows: 400px 275px 275px ;
+    grid-template-rows: 400px 250px 250px ;
     grid-template-columns: 3fr 1fr 1fr;
     grid-template-areas:
     "architecture architecture architecture"
@@ -100,7 +100,7 @@ li {
   }
   #interiordesign {
     grid-area: interiordesign;
-    background-image: url("../images/interior01.jpg");
+    background-image: url("../images/02-living-01.png");
   }
   
   #uxDesign {
@@ -129,13 +129,13 @@ li {
 
   .heading {
     background-color: rgba(35, 58, 59, 0.5);
-    padding: 15px;
+    padding: 30px;
     height: 30px fit-content;
     color: rgb(255, 255, 255);
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 400;
   }
-  
+
 footer {
     display: flex;
     justify-content: left;
