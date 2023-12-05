@@ -3,6 +3,11 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+variable:hover {
+      height: 200px
+      width: 200px
+}
+
 body {
     background-color: rgba(248, 249, 248, 0.905);
     color: rgb(99, 98, 98);
@@ -44,6 +49,10 @@ h1 {
     background-color:  rgba(49, 80, 82, 0.5);;
 }
 
+ {
+ box-shadow: #452a2a;
+}
+
 h2 {
     font-size: 18px;
 }
@@ -64,6 +73,10 @@ h2 {
     text-shadow: 0px 2px 5px rgb(154, 153, 153);
 }
 
+.textshadow:hover {
+  color: #452a2a;
+}
+
 .textborder {
     padding-left: 15px;
     margin-left: 10px;
@@ -71,14 +84,10 @@ h2 {
     
 }
 
-
-
 li {
     display: inline-block;
     margin-left: 20px;
     }
-
-
 
 #categoryGrid {
     margin: 0px 5%;
@@ -88,10 +97,8 @@ li {
     grid-template-areas:
     "architecture architecture architecture"
     "interiordesign uxDesign uxDesign"
-    "interiordesign webDev others"
-    ;
-
-  }
+    "interiordesign webDev others";
+}
   
   #architecture {
     grid-area: architecture;
@@ -127,6 +134,14 @@ li {
     align-content: center;
   }
 
+  .heading:hover {
+    width: 200;
+    height: 100;
+    background-color: rgb(68, 67, 67, .9)
+  ;
+
+  }
+
   .heading {
     background-color: rgba(35, 58, 59, 0.5);
     padding: 30px;
@@ -159,4 +174,32 @@ h3 {
 
 p {
     font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  header {
+    display: flex;
+        align-items: center;
+        justify-content: space-between;;
+        color: rgb(100, 16, 16);
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        box-shadow: #452a2a;
+    }
+   #categoryGrid {
+      grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "architecture"
+      "interiordesign"
+      "uxDesign"
+      "webDev"
+      "others";
+    background-position: center;
+    background-size: cover;
+    
+    ;
+  }
 }
