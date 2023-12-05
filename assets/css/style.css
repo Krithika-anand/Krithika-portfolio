@@ -36,6 +36,7 @@ h1 {
 #nav-bar {
 
     display: flex;
+    padding: 7px;
     justify-content: space-evenly;
     align-items: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
@@ -49,7 +50,6 @@ h2 {
 
 .container {
     display: inline-flex ;
-    justify-content: left 50;
     align-items: center;
     width: 95%;
     border: 20px;
@@ -63,9 +63,9 @@ h2 {
 .textshadow {
     text-shadow: 0px 2px 5px rgb(154, 153, 153);
 }
-.textborder {
 
-    padding-left: 10px;
+.textborder {
+    padding-left: 15px;
     margin-left: 10px;
     border-left: 3px solid #452a2a;
     
@@ -118,7 +118,7 @@ li {
     background-image: url("../images/Sankriti\ logo.jpg");
   }
   
-  .categoryGridArea {
+  .categoryGridArea{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -131,9 +131,10 @@ li {
     background-color: rgba(35, 58, 59, 0.5);
     padding: 30px;
     height: 30px fit-content;
-    color: rgb(255, 255, 255);
+    color: rgb(221, 221, 221);
     font-size: 22px;
     font-weight: 400;
+    
   }
 
 footer {
