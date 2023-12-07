@@ -200,7 +200,7 @@ p {
   }
 
   #categoryGrid {
-    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-rows: 175px 175px 175px 175px 175px;
     grid-template-columns: 1fr;
     grid-template-areas:
       "architecture"
@@ -210,6 +210,7 @@ p {
       "others";
     background-position: center;
     background-size: cover;
+    max-width: fit-content;
   }
 
   #contactMe {
@@ -222,7 +223,8 @@ p {
   }
 
   .textborder {
-    padding-left: 8dvh;
+    padding-left: 15px;
+    padding-right: 5px;
     margin-left: 0px;
     border-left: 2px solid rgba(132, 132, 132, 0.905);
   
