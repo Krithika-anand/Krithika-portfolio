@@ -81,7 +81,7 @@ h2 {
 
 .textborder {
   padding-left: 15px;
-  margin-left: 10px;
+  margin-left: 0px;
   border-left: 3px solid #452a2a;
 
 }
@@ -164,7 +164,7 @@ h3 {
   font-size: 25px;
   font-weight: 300;
   margin: 0px 0px;
-  width: 150px;
+  width: 120px;
 }
 
 a {
@@ -181,13 +181,13 @@ p {
 @media only screen and (max-width: 600px) {
 
   header {
-    display: inline-flexbox;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     color: rgb(100, 16, 16);
     height: 100%;
     width: 100%;
-    margin: auto;
+    margin: 0;
     box-shadow: #452a2a;
   }
 
@@ -199,6 +199,7 @@ p {
     display: flex;
     margin: 0;
     padding: 0%;
+    width: 95%;
   }
 
   #categoryGrid {
@@ -216,6 +217,11 @@ p {
 
   #contactMe {
     display: inline;
+  }
+
+  h3 {
+    font-size: 22px;
+    width: 50;
   }
 
   
