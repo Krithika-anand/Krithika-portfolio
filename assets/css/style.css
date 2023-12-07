@@ -3,9 +3,6 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-variable:hover {
-  height: 200px width: 200px
-}
 
 body {
   background-color: rgba(248, 249, 248, 0.905);
@@ -50,14 +47,6 @@ h1 {
   ;
 }
 
-#aboutMe p {
-  text-align: justify;
-}
-
-
-h2 {
-  font-size: 18px;
-}
 
 .container {
   display: inline-flex;
@@ -92,7 +81,7 @@ li {
 }
 
 #categoryGrid {
-  margin: 0px 5%;
+  margin: 0px ;
   display: grid;
   grid-template-rows: 400px 250px 250px;
   grid-template-columns: 3fr 1fr 1fr;
@@ -160,11 +149,21 @@ footer {
 
 /* typography */
 
+#aboutMe p {
+  text-align: justify;
+}
+
+
+h2 {
+  font-size: 18px;
+}
+
+
 h3 {
   font-size: 25px;
   font-weight: 300;
-  margin: 0px 0px;
-  width: 120px;
+  margin: 0px 10px;
+  width: 150px;
 }
 
 a {
@@ -195,11 +194,9 @@ p {
     display: none;
   }
 
-  #aboutMe p{
-    display: flex;
-    margin: 0;
-    padding: 0%;
-    width: 95%;
+  #aboutMe {
+    display: inline-flex;
+    
   }
 
   #categoryGrid {
@@ -221,7 +218,21 @@ p {
 
   h3 {
     font-size: 22px;
-    width: 50;
+    width: 100px;
   }
 
+  .textborder {
+    padding-left: 8dvh;
+    margin-left: 0px;
+    border-left: 2px solid rgba(132, 132, 132, 0.905);
   
+  }
+
+  .container {
+    display: inline-flex;
+    align-items:flex-start;
+    width: 95%;
+    border: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
