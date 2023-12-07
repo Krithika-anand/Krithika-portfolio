@@ -1,195 +1,208 @@
 * {
-    margin: 0px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 variable:hover {
-      height: 200px
-      width: 200px
+  height: 200px width: 200px
 }
 
 body {
-    background-color: rgba(248, 249, 248, 0.905);
-    color: rgb(99, 98, 98);
+  background-color: rgba(248, 249, 248, 0.905);
+  color: rgb(99, 98, 98);
 }
 
 header {
-display: flex;
-    align-items: center;
-    justify-content: space-between;;
-    color: rgb(100, 16, 16);
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    box-shadow: #452a2a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  ;
+  color: rgb(100, 16, 16);
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  box-shadow: #452a2a;
 }
 
 h1 {
-    font-size: 35px;
-    font-weight: 300;
-    justify-self: center;
-    text-shadow: 0 2px 5px black;
-    justify-self: center;
+  font-size: 35px;
+  font-weight: 300;
+  justify-self: center;
+  text-shadow: 0 2px 5px black;
+  justify-self: center;
 }
 
 #my-photo {
-    border-radius: 50%;
-    filter: grayscale(60%);
-    box-shadow: 2px 2px 5px rgb(68, 67, 67);
+  border-radius: 50%;
+  filter: grayscale(60%);
+  box-shadow: 2px 2px 5px rgb(68, 67, 67);
 }
 
 #nav-bar {
 
-    display: flex;
-    padding: 7px;
-    justify-content: space-evenly;
-    align-items: center;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    color: rgb(255, 255, 255);
-    background-color:  rgba(49, 80, 82, 0.5);;
+  display: flex;
+  padding: 7px;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  color: rgb(255, 255, 255);
+  background-color: rgba(49, 80, 82, 0.5);
+  ;
 }
 
- {
- box-shadow: #452a2a;
+#aboutMe p {
+  text-align: justify;
 }
+
 
 h2 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .container {
-    display: inline-flex ;
-    align-items: center;
-    width: 95%;
-    border: 20px;
-    padding: 5px;
-    margin-bottom: 20px;
-    padding: 20px;
+  display: inline-flex;
+  align-items: center;
+  width: 95%;
+  border: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
 }
 
 
 
 .textshadow {
-    text-shadow: 0px 2px 5px rgb(154, 153, 153);
+  text-shadow: 0px 2px 5px rgb(154, 153, 153);
 }
 
 .textshadow:hover {
   color: #452a2a;
+  text-shadow: 0px 2px 5px rgb(171, 171, 113)
 }
 
 .textborder {
-    padding-left: 15px;
-    margin-left: 10px;
-    border-left: 3px solid #452a2a;
-    
+  padding-left: 15px;
+  margin-left: 10px;
+  border-left: 3px solid #452a2a;
+
 }
 
 li {
-    display: inline-block;
-    margin-left: 20px;
-    }
+  display: inline-block;
+  margin-left: 20px;
+}
 
 #categoryGrid {
-    margin: 0px 5%;
-    display: grid;
-    grid-template-rows: 400px 250px 250px ;
-    grid-template-columns: 3fr 1fr 1fr;
-    grid-template-areas:
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 400px 250px 250px;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-areas:
     "architecture architecture architecture"
     "interiordesign uxDesign uxDesign"
     "interiordesign webDev others";
 }
-  
-  #architecture {
-    grid-area: architecture;
-    background-image: url("../images/architecture.jpg");
-  
-  }
-  #interiordesign {
-    grid-area: interiordesign;
-    background-image: url("../images/02-living-01.png");
-  }
-  
-  #uxDesign {
-    grid-area: uxDesign;
-    background-image: url("../images/commingsoon1.png");
-  }
-  
-  #webDev {
-    grid-area: webDev ;
-    background-image: url("../images/commingsoon1.png");
-  }
-  
-  #others {
-    grid-area: others;
-    background-image: url("../images/Sankriti\ logo.jpg");
-  }
-  
-  .categoryGridArea{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 2px;
-    display: grid;
-    align-content: center;
-  }
 
-  .heading:hover {
-    width: 200;
-    height: 100;
-    background-color: rgb(68, 67, 67, .9)
-  ;
+#architecture {
+  grid-area: architecture;
+  background-image: url("../images/architecture.jpg");
 
-  }
+}
 
-  .heading {
-    background-color: rgba(35, 58, 59, 0.5);
-    padding: 30px;
-    height: 30px fit-content;
-    color: rgb(221, 221, 221);
-    font-size: 22px;
-    font-weight: 400;
-    
-  }
+#interiordesign {
+  grid-area: interiordesign;
+  background-image: url("../images/02-living-01.png");
+}
+
+#uxDesign {
+  grid-area: uxDesign;
+  background-image: url("../images/commingsoon1.png");
+}
+
+#webDev {
+  grid-area: webDev;
+  background-image: url("../images/commingsoon1.png");
+}
+
+#others {
+  grid-area: others;
+  background-image: url("../images/Sankriti\ logo.jpg");
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2px;
+  display: grid;
+  align-content: center;
+}
+
+.heading:hover {
+
+  background-color: rgb(68, 67, 67, .9);
+  text-shadow: rgba(68, 31, 31, 0.9);
+}
+
+.heading {
+  background-color: rgba(35, 58, 59, 0.5);
+  padding: 30px;
+  height: 30px fit-content;
+  color: rgb(221, 221, 221);
+  font-size: 22px;
+  font-weight: 400;
+
+}
 
 footer {
-    display: flex;
-    justify-content: left;
+  display: flex;
+  justify-content: left;
 }
 
 /* typography */
 
 h3 {
-    font-size: 25px;
-    font-weight: 300;
-    margin: 0px 0px;
-  }
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0px 0px;
+  width: 150px;
+}
 
-  a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
 }
 
 p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 600px) {
 
   header {
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(100, 16, 16);
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    box-shadow: #452a2a;
+  }
+
+  header #img1 {
+    display: none;
+  }
+
+  #aboutMe p{
     display: flex;
-        align-items: center;
-        justify-content: space-between;;
-        color: rgb(100, 16, 16);
-        height: 100%;
-        width: 100%;
-        margin: auto;
-        box-shadow: #452a2a;
-    }
-   #categoryGrid {
-      grid-template-rows: 200px 200px 200px 200px 200px;
+    margin: 0;
+    padding: 0%;
+  }
+
+  #categoryGrid {
+    grid-template-rows: 200px 200px 200px 200px 200px;
     grid-template-columns: 1fr;
     grid-template-areas:
       "architecture"
@@ -199,7 +212,10 @@ p {
       "others";
     background-position: center;
     background-size: cover;
-    
-    ;
   }
-}
+
+  #contactMe {
+    display: inline;
+  }
+
+  
